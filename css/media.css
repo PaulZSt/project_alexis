@@ -1,0 +1,17 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .about_us__wrapper{
+    flex-wrap: wrap;
+  }
+
+  .about_us__image{
+    max-width: 100%;
+  }
+
+  .about_us__image img{
+    height: auto;
+  }
+
+  .about_us__content{
+    left: 0;
+  }
+}
