@@ -943,3 +943,51 @@ background: none;
 .section_why {
   background: rgba(247,247,247,1);
 }
+
+.section_why__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section_why__item {
+  flex: 0 1 300px;
+  margin: 25px;
+}
+
+.section_why__icon {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.section_why__icon h6{
+padding-left: 15px;
+  line-height: 26px;
+}
+
+section_why__img{
+
+}
+
+.section_why_text {
+
+  color: rgba(63,64,73,1);
+  line-height: 26px;
+}
+
+.section_why__start {
+  margin: 0 auto;
+}
+
+.section_why__button {
+  color: rgba(252, 95, 69, 1);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px calc(20px + 2.34vw);
+  border-radius: 30px;
+  transition: all .5s;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
